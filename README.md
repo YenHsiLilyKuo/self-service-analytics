@@ -26,8 +26,7 @@ A self-service analytics web app that enables business stakeholders to generate 
 [Flyer.pdf](Flyer.pdf)
 
 ## 🎥 Demo
-<video src="demo1.mp4" controls width="700"></video>
- -->
+📽️ [Click here to watch the demo video](demo1.mp4)
 
 ## 🚀 Run Locally
 
@@ -36,21 +35,28 @@ A self-service analytics web app that enables business stakeholders to generate 
 ```bash
 pip install -r requirements.txt
 ```
+### 2. Setup Stanford NLP Parser
 
-### 2. Set up MySQL database
+Due to file size limits, JAR files are not included in this repository. Please download the following files manually:
+
+- [`stanford-parser-3.9.2-models.jar`](https://nlp.stanford.edu/software/lex-parser.shtml)
+- [`stanford-english-corenlp-2018-10-05-models.jar`](https://stanfordnlp.github.io/CoreNLP/)
+
+Place them in the `parsers/` folder like this:
+
+### 3. Set up MySQL database
 Ensure a MySQL instance is running with the olist_data database and your credentials.
 
-### 3. Configure connection
+### 4. Configure connection
 Copy the example config and fill in your info:
 ```bash
 cp config/db_connect.json.example db_connect.json
 ```
 
-### 4. Run the app
+### 5. Run the app
 ```bash
 streamlit run app/main_app.py
 ```
-
 
 
 ## 👩‍💻 Team
