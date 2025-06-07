@@ -3,13 +3,12 @@
 A self-service analytics web app that enables business stakeholders to generate SQL queries and visualizations simply by typing natural language. This app uses the **Olist e-commerce dataset from Kaggle stored in a MySQL database**, The app is powered by a Groq LLM API for query generation, NL4DV for data-to-visual insight mapping, and Streamlit for an intuitive user interface.
 
 
-
 ## 📌 Key Features
 
 - 🗣️ Translate natural language prompts into SQL queries using the Groq API
 - 🧮 Execute SQL queries on a MySQL database (`olist_data`)
 - 📊 Automatically visualize results with Altair charts
-- 🧠 Enable non-technical users to explore data without writing code
+- 🧙🏻 Enable non-technical users to explore data without writing code
 - 🔁 Reusable, fast, and no-code interface
 
 
@@ -21,12 +20,15 @@ A self-service analytics web app that enables business stakeholders to generate 
 - **Natural Language → Visualization Mapping**: NL4DV, Stanford CoreNLP
 - **Visualization**: Altair
 
+
 ## 🖨️   Flyer
 
 [Flyer.pdf](Flyer.pdf)
 
+
 ## 🎥 Demo
 📽️ [Click here to watch the demo video](demo1.mp4)
+
 
 ## 🚀 Run Locally
 
